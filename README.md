@@ -1,12 +1,12 @@
-# 🛒 E-commerce Customer Churn Prediction
+# E-commerce Customer Churn Prediction
 
-### 📌 Introduction
+### Introduction
 In e-commerce, the cost of acquiring a new customer is **5 to 25 times higher** than retaining an existing one. However, many businesses still rely on broad, unfocused marketing strategies that fail to identify customers who are most at risk of churning.
 
 Based on this dataset, approximately **16.8% of customers churn** — about 1 in 6. Left unaddressed, this churn rate can result in:
-- 📉 Revenue losses  
-- ⬇️ Lower customer lifetime value  
-- 💸 Inefficient marketing spend  
+- Revenue losses  
+- Lower customer lifetime value  
+- Inefficient marketing spend  
 
 Generic loyalty programs or discounts are not cost-effective — they risk **misallocating resources** toward users who never intended to leave.
 
@@ -20,20 +20,20 @@ Generic loyalty programs or discounts are not cost-effective — they risk **mis
 
 ---
 
-## 📈 Final Model Summary
+## Final Model Summary
 
 - **Model**: Tuned LightGBM Classifier  
 - **Resampling**: Random Over Sampling (ROS)  
 - **Feature Selection**: SelectKBest (f_classif)  
 - **Primary Metric**: **F2-Score = 0.901379**
 
-### 🔍 Prediction Breakdown
+### Prediction Breakdown
 | Category                       | Count |
 |--------------------------------|-------|
-| ✅ True Negatives (0 → 0)      | 923   |
-| ⚠️ False Positives (0 → 1)     | 13    |
-| 🎯 True Positives (1 → 1)      | 170   |
-| ❌ False Negatives (1 → 0)     | 20    |
+| True Negatives (0 → 0)      | 923   |
+| False Positives (0 → 1)     | 13    |
+| True Positives (1 → 1)      | 170   |
+| False Negatives (1 → 0)     | 20    |
 
 **Interpretation**:
 - High success in correctly identifying **non-churners**
@@ -43,7 +43,7 @@ Generic loyalty programs or discounts are not cost-effective — they risk **mis
 
 ---
 
-## 👥 Stakeholder
+## Stakeholder
 
 The **Customer Marketing Team** can leverage the model to:
 - Proactively engage high-risk customers  
@@ -52,7 +52,7 @@ The **Customer Marketing Team** can leverage the model to:
 
 ---
 
-## 🧰 Tools & Libraries Used
+## Tools & Libraries Used
 - `Python`
 - `Pandas`, `NumPy`
 - `Scikit-learn`, `Imbalanced-learn`
@@ -60,6 +60,6 @@ The **Customer Marketing Team** can leverage the model to:
 - `Matplotlib`, `Seaborn`
 ---
 
-## 🧑‍🤝‍🧑 Team Members
+## Team Members
 - **Meriani Alexandra**  
 - **Nadame Kristina**
