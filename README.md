@@ -43,12 +43,12 @@ Generic loyalty programs or discounts are not cost-effective — they risk **mis
 
 ---
 
-## 👥 Stakeholder Impact
+## 👥 Stakeholder
 
 The **Customer Marketing Team** can leverage the model to:
 - Proactively engage high-risk customers  
 - Minimize churn through early intervention  
-- Allocate retention resources more efficiently
+- Allocate budget resources more efficiently
 
 ---
 
