@@ -2,11 +2,11 @@ streamlit
 pandas
 numpy
 scikit-learn==1.2.2
+imbalanced-learn==0.10.1
 matplotlib
 seaborn
 scipy
 xgboost
 lightgbm
-imbalanced-learn
 category_encoders
 ipython
