@@ -9,5 +9,5 @@ lightgbm
 category_encoders
 imbalanced-learn
 scipy
-pickle5
+pickle
 streamlit
