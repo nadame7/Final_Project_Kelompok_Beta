@@ -8,3 +8,4 @@ streamlit
 matplotlib
 seaborn
 ipython
+category_encoders==2.6.3
