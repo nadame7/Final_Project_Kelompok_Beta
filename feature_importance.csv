@@ -1,0 +1,25 @@
+Feature,Importance
+Numerical 1__CashbackAmount,1161
+Numerical 1__WarehouseToHome,869
+Numerical 1__OrderAmountHikeFromlastYear,697
+Numerical 1__Tenure,631
+Numerical 1__DaySinceLastOrder,513
+Categorical 3__SatisfactionScore,472
+Numerical 1__OrderCount,297
+Numerical 1__NumberOfDeviceRegistered,250
+Categorical 4__CityTier,223
+Numerical 1__CouponUsed,187
+Categorical 1__PreferredPaymentMode_2,164
+Categorical 2__PreferredLoginDevice_Mobile Phone,158
+Categorical 1__MaritalStatus_0,156
+Categorical 1__CountOfAddress_0,154
+Categorical 2__Gender_Male,148
+Numerical 1__HourSpendOnApp,145
+Categorical 1__PreferredPaymentMode_1,144
+Categorical 1__CountOfAddress_1,122
+Categorical 1__PreferedOrderCat_1,106
+Categorical 1__PreferredPaymentMode_0,105
+Categorical 1__CountOfAddress_2,82
+Categorical 1__PreferedOrderCat_2,75
+Categorical 1__MaritalStatus_1,66
+Categorical 1__PreferedOrderCat_0,35
