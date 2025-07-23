@@ -569,7 +569,7 @@ for i, col in enumerate(demographics_cols):
                 ha='center',
                 va='bottom'
         )
-
+            
     plt.subplot(len(demographics_cols), 3, row_idx + 2)
     value_counts = df[col].value_counts()
     plt.pie(value_counts, labels=value_counts.index.astype(str), autopct='%1.1f%%',
