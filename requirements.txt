@@ -1,7 +1,6 @@
 numpy
 scipy
 pandas
-scikit-learn
 xgboost
 lightgbm
 streamlit
@@ -9,4 +8,5 @@ matplotlib
 seaborn
 ipython
 category_encoders==2.6.3
+scikit-learn==1.3.2
 imbalanced-learn==0.11.0
