@@ -557,15 +557,18 @@ for i, col in enumerate(demographics_cols):
     plt.title(f'Customer Churn Distribution by {col}')
     plt.xticks(rotation=45)
 
-    for p in ax.patches:
-        count = int(p.get_height())
-        if count > 0:
-            ax.annotate(f'{count}', 
-                        (p.get_x() + p.get_width() / 2., p.get_height()), 
-                        ha='center', va='center', 
-                        xytext=(0, 5), 
-                        textcoords='offset points', color='black', fontsize=9, fontweight='bold')
+    from matplotlib.patches import Rectangle
 
+    for p in ax.patches:
+        if isinstance(p, Rectangle):
+            height = p.get_height()
+            ax.text(
+                p.get_x() + p.get_width() / 2.,
+                height,
+                f'{height:.0f}',
+                ha='center',
+                va='bottom'
+        )
 
     plt.subplot(len(demographics_cols), 3, row_idx + 2)
     value_counts = df[col].value_counts()
