@@ -1,15 +1,15 @@
 # Core
-pandas==1.5.3
-numpy==1.26.4
-scikit-learn==1.2.2
+pandas
+numpy
+scikit-learn
 
 # Visualization
-matplotlib==3.8.2
-seaborn==0.12.2
+matplotlib
+seaborn
 
 # Encoding & Sampling
-category_encoders==2.6.3
-imbalanced-learn==0.10.1
+category_encoders
+imbalanced-learn
 
 # Streamlit
-streamlit==1.34.0
+streamlit
