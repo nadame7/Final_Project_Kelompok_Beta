@@ -30,10 +30,10 @@ Generic loyalty programs or discounts are not cost-effective — they risk **mis
 ### Prediction Breakdown
 | Category                       | Count |
 |--------------------------------|-------|
-| True Negatives (0 → 0)      | 923   |
-| False Positives (0 → 1)     | 13    |
-| True Positives (1 → 1)      | 170   |
-| False Negatives (1 → 0)     | 20    |
+| True Negatives (0 → 0)      | 921   |
+| False Positives (0 → 1)     | 15    |
+| True Positives (1 → 1)      | 173   |
+| False Negatives (1 → 0)     | 17     |
 
 **Interpretation**:
 - High success in correctly identifying **non-churners**
@@ -63,3 +63,7 @@ The **Customer Marketing Team** can leverage the model to:
 ## Team Members
 - **Meriani Alexandra**  
 - **Nadame Kristina**
+---
+
+## Link Streamlit
+
