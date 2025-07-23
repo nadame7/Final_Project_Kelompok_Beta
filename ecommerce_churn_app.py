@@ -133,6 +133,7 @@ import streamlit as st
 
 
 df = pd.read_csv("E_Comm.csv")
+df = df.astype({col: 'int64' for col in df.select_dtypes('Int64').columns})
 df
 
 
