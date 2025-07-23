@@ -560,14 +560,14 @@ for i, col in enumerate(demographics_cols):
     from matplotlib.patches import Rectangle
 
     for p in ax.patches:
-        if isinstance(p, Rectangle):
-            height = p.get_height()
-            ax.text(
-                p.get_x() + p.get_width() / 2.,
-                height,
-                f'{height:.0f}',
-                ha='center',
-                va='bottom'
+    if hasattr(p, "get_height"):  # ← Ini cara paling aman
+        height = p.get_height()
+        ax.text(
+            p.get_x() + p.get_width() / 2.,
+            height,
+            f'{height:.0f}',
+            ha='center',
+            va='bottom'
         )
             
     plt.subplot(len(demographics_cols), 3, row_idx + 2)
