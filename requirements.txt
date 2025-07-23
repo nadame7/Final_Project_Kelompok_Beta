@@ -13,3 +13,4 @@ imbalanced-learn
 
 # Streamlit
 streamlit
+xgboost
