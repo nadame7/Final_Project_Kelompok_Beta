@@ -24,7 +24,6 @@ pd.set_option('display.max_columns', None)
 import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib.ticker import FuncFormatter
-from IPython.display import display, Markdown
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 
 # Statistical Analysis
@@ -1766,7 +1765,7 @@ combined_all_feature_selection_median = combined_all_feature_selection_median.so
 ).reset_index(drop=True)
 
 
-display(Markdown("**Top Models from Each Feature Selection Method (Median Imputer)**"))
+display("**Top Models from Each Feature Selection Method (Median Imputer)**")
 display(combined_all_feature_selection_median)
 
 
@@ -1783,7 +1782,7 @@ combined_all_feature_selections_iterative = combined_all_feature_selections_iter
     by='Avg F2 Score', ascending=False
 ).reset_index(drop=True)
 
-display(Markdown("**Top Models from Each Feature Selection Method (Iterative Imputer)**"))
+display("**Top Models from Each Feature Selection Method (Iterative Imputer)**")
 display(combined_all_feature_selections_iterative)
 
 
