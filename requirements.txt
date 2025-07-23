@@ -1,9 +1,9 @@
 streamlit
+pandas==2.2.2
+numpy==1.26.4
 scikit-learn
-pandas
-numpy
-matplotlib
 seaborn
+matplotlib
 imbalanced-learn
 xgboost
 lightgbm
